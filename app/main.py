@@ -6,3 +6,6 @@ app = Flask(__name__)
 def inicio():
     return render_template("index.html")
 
+@app.route("/coddi") #indica que será la página de inicio
+def map():
+    return render_template("coddi_map.html")
