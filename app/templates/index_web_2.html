@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Joel S. Torres-Carrasco" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link rel="icon-jt" sizes="180x180" href="{{ url_for('static',filename='assets/icon-jt.png')}}">
+  <link href="./assets/favicon.ico" rel="icon">
+  
+  <title>Joel Torres - Página Principal</title>  
+
+<link href="{{ url_for('static',filename='css/main.3da94fde.css') }}" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Add your content of header -->
+
+<header>
+  <nav class="navbar navbar-fixed-top navbar-default">
+    <div class="container">
+        <button type="button" class="navbar-toggle">
+          <span class="sr-only">Barra</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+      <nav class="navbar-fullscreen" id="navbar-middle">
+        <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <ul class="navbar-fullscreen-links">
+          <li><a href="/map-dataset" title="">Mapa POI</a></li>
+          <!--li><a href="./project.html" title="">Project</a></li>
+          <li><a href="./about.html" title="">About me</a></li>
+          <li><a href="./components.html" title="">Components</a></li-->
+        </ul>
+
+        <div class="footer-container">
+           
+          <!--p><small>© Untitled | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></small></p-->
+          <p class="footer-share-icons">
+              <!--a href="https://www.twitter.com" class="fa-icon" title="">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a-->
+              <a href="https://www.linkedin.com/in/joelsebastiantc/" class="fa-icon" title="">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="https://github.com/profeJoel" class="fa-icon" title="">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="http://anexos.ulagos.cl/ptomontt/?id=1242" class="fa-icon" title="">
+                  <i class="fa fa-university" aria-hidden="true"></i>
+              </a>
+          </p>
+                       
+        </div>
+
+
+      </nav> 
+    
+    </div>
+  </nav>
+</header>
+<div class="section-container content-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="col-md-6">
+                    <img src="{{ url_for('static',filename='assets/images/joel-torres-perfil.png')}}" class="img-responsive" alt=""> 
+                </div>
+                <div class="col-md-6">
+                    <h1 class="h2">Joel Sebastián Torres-Carrasco</h1>
+                    <p>
+                        Ingeniero Civil en Informática (Universidad del Bío-Bío)<br>
+                        Magíster en Ciencias de la Computación (Universidad del Bío-Bío)<br>
+                        Diplomado en Inteligencia Artificial (Pontificia Universidad Católica de Valparaíso)
+                    </p>
+                    <hr>
+
+                    <p>
+                        Mi interés en la investigación se centra en Sistemas de Recomendación, Aprendizaje Automático, visión por computadora y Procesamiento de Lenguaje Natural. He estado colaborando proyectos que implementan estas tecnologías en el área de la salmonicultura, apicultura y el turismo.
+                        <br>
+                        Me he desempeñado como asistente de investigación en un proyecto de investigación científica, y como desarrollador de soluciones en análisis de datos económicos-sociales-laborales en el Observatorio Laboral Biobío del Gobierno de Chile. 
+                        <br>
+                        Actualmente soy académico en el área de las Ciencias de la Computación para el Departamento de Ciencias de la Ingeniería de la Universidad de Los Lagos, Campus Puerto Montt, Chile. Me encargo de la docencia de las asignaturas de programación, teoría de la computación, Inteligencia Artificial y Machine Learning; además, de la coordinación de los procesos asociados a las prácticas profesionales y la guía de proyectos de título. 
+                    </p>
+                    <hr>
+
+                    <h2 class="h2">Proyectos</h2>
+                    <ul class="list-unstyled">
+                        <li>"CODDIAPP SISTEMA DE INTELIGENCIA TURÍSTICA, UN AGENTE DE VIAJES EN LA PALMA DE TU MANO", CONTRATO DE PRESTACIÓN DE SERVICIO DE I+D+i - Financiado por Innova CORFO 2021, 21CV-171420 (Investigador Principal)</li>
+                        <li>"Implementación Página Web: Aprendo a moverme, cuidarme y nutrirme en mi Escuela", Fondo de Iniciativas de Vinculación con el Medio en la Docencia año 2021, (sin identificador) (Colaborador)</li>
+                        <li>“Determinación del origen de la miel mediante el estudio-ensayo palinológico, aplicando técnicas de procesamiento digital de imágenes para identificar y cuantificar el polen”, Quinto Concurso Interno de Investigación en Ciencia Aplicada 2020, Código INTAPL28-2020 (Investigador)</li>
+                        <li>"Repositorio de datos para la toma de decisiones en la industria salmonera", Fondos de Concurso Redes Territoriales de Investigación, RTI14/19 (Investigador)</li>
+                    </ul>
+                    
+                    <hr>
+                    <h2 class="h2">Proyectos de Título</h2>
+                    <ul class="list-unstyled">
+                        <li>"DETECCIÓN DE PRESENCIA DE PARÁSITOS EN EXAMEN PARASITOLÓGICO SERIADO DE DEPOSICIONES CON VISIÓN POR COMPUTADORA", Diego Ignacio Muñoz Viveros, 2022 (Guía)</li>
+                        <li>"IMPLEMENTACIÓN DE UN MODELO DE CLUSTERING PARA SELECCIONAR DELANTEROS EN UNA NÓMINA DE EQUIPOS DE FÚTBOL", Diego Sebastián Altamirano Almonacid, 2021 (Co-guía)</li>
+                        <li>"DISEÑO DE UN MODELO DE ARQUITECTURA PARA EL MONITOREO PERIMETRAL DE INFRAESTRUCTURA LÓGICA EN LOS RECURSOS TIC", Henry Alejandro Inalef Bahamonde, 2020 (Co-guía)</li>
+                    </ul>
+
+                    <hr>
+                    <h2 class="h2">Ponencias</h2>
+                    <ul class="list-unstyled">
+                        <li>"Machine Learning", (Jornadas Industria 4.0 y sus competencias, Universidad Tecnológica del Suroeste de Guanajuato (UTSOE), 17 de Noviembre de 2021)</li>
+                        <li>"Virtualización del Taller de Introducción a la Ingeniería Informática a través de Discord", (VIII Reunión Latinoamericana CDIO, on-line, 18 de Noviembre de 2020)</li>
+                        <li>“Taller de Prototipado Rápido: Ingenieros para la Sociedad” (VII Reunión Latinoamericana CDIO, Universidad de Los Lagos, 15 de Noviembre de 2019)</li>
+                        <li>“Repositorio de datos para la toma de decisiones en la industria salmonera” (Segundo Coloquio de Investigación, Universidad de Los Lagos, 30 de Agosto de 2019)</li>
+                        <li>“Uso de algoritmos basados en confianza en Sistemas de Recomendación Conscientes del Contexto” (V Encuentro de Investigación de Estudiantes de Postgrado, Universidad Del Bío-Bío, 17 de Noviembre de 2016)</li>
+                        <li>“Uso de algoritmos basados en confianza en Sistemas de Recomendación Conscientes del Contexto” (VIII Congreso de Estudiantes de Computación e Informática Zona Sur – CECOI, Universidad Del Bío-Bío, 16 de Noviembre de 2016)</li>
+                    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                    <hr>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="mailto:joelsebastiantc@gmail.com" title="" class="link-like-text">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                Email Personal: joelsebastiantc@gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:joel.torres@ulagos.cl" title="" class="link-like-text">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                Email Institucional: joel.torres@ulagos.cl
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/joelsebastiantc/" title="" class="link-like-text">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                Linkedin
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/profeJoel/" title="" class="link-like-text">Github</a>
+                        </li>
+                        <li>
+                            <a href="http://anexos.ulagos.cl/ptomontt/?id=1242" title="" class="link-like-text">Universidad de Los Lagos</a>
+                        </li>
+                        <li>
+                            <a href="https://ingenierias.ulagos.cl/cuerpoacademico/" title="" class="link-like-text">Departamento de Ciencias de la Ingeniería, ULagos</a>
+                        </li>
+                        <li>
+                            <a href="https://icinf.ulagos.cl/index.php/estructura-carrera/academicos/puerto-montt/item/18-joel-torres" title="" class="link-like-text">Ingeniería Civil en Informática</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      navbarToggleSidebar();
+      closeMenuBeforeGoingToPage();
+      navActivePage();
+    });
+</script>
+ <script type="text/javascript" src="{{ url_for('static',filename='css/main.4c6e144e.js') }}"></script>
+
+ <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script-->
+
+</body>
+
+</html>
