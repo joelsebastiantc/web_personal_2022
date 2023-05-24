@@ -176,8 +176,8 @@
                     </ul>
 
                     <div id="infoDown">
-                        <h3 class="h3">Contactos</h3>
                         <hr>
+                        <h3 class="h3">Contactos</h3>
                         <ul class="list-unstyled">
                             <li>
                                 <a href="mailto:joelsebastiantc@gmail.com" title="" class="link-like-text">
@@ -267,6 +267,9 @@
         }
     }
     document.addEventListener("DOMContentLoaded", function (event) {
+        changeDivInfo();
+    });
+    document.addEventListener("resize", function (event) {
         changeDivInfo();
     });
 </script>
