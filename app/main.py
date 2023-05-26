@@ -8,4 +8,4 @@ def inicio():
 
 @app.route("/map-dataset") #indica que será la página de inicio
 def map():
-    return render_template("coddi_map.html")
+    return render_template("index_map.html")
