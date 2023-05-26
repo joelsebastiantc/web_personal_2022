@@ -9,3 +9,7 @@ def inicio():
 @app.route("/map-dataset") #indica que será la página de inicio
 def map():
     return render_template("index_map.html")
+
+@app.route("/cursos") #indica que será la página de inicio
+def curso():
+    return render_template("cursos.html")
